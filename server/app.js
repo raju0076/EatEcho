@@ -7,7 +7,7 @@ import session from "express-session";
 import { Strategy as GoogleStrategy } from "passport-google-oauth20";
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT
 const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
 const GOOGLE_API_URL = process.env.GOOGLE_API_URL;
 const GEOCODING_URL = process.env.GEOCODING_URL;
