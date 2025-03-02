@@ -2,6 +2,7 @@ import env from "dotenv";
 env.config();
 import express from "express";
 import axios from "axios";
+import cors from 'cors'
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -11,6 +12,8 @@ const GEOCODING_URL = process.env.GEOCODING_URL;
 const UNSPLASH_ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY;
 
 app.use(express.json());
+
+app.use(cors())
 
 // List of dish names
 const dishNames = [
