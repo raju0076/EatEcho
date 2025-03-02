@@ -54,7 +54,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-bottom">
-          <p>© 2023,Eat_Echo. All rights reserved.</p>
+          <p>© 2025,Eat_Echo. All rights reserved.</p>
         </div>
       </footer>
     </div>

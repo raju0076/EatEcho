@@ -1,0 +1,84 @@
+.maindiv{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+   
+    
+
+}
+.maindiv>h1,.maindiv>p{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(238, 173, 52);
+}
+.restCard{
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 10px;
+    
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.restCard>div:nth-child(1){
+    padding: 10px;
+}
+
+.foodCard {
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    white-space: nowrap; 
+    padding-bottom: 10px; 
+    scrollbar-width: thin; 
+  
+  }
+  
+  .foodCard::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .foodCard::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .foodCard::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  .foodCard::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  .foodimgdiv {
+    min-width: 200px; 
+    text-align: center;
+    
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+  }
+  
+  .foodimgdiv img {
+    width: 100%;
+    height: 90%;
+    border-radius: 5px;
+  }
+  
+  .foodimgdiv button:hover {
+    cursor: pointer;
+  }
+  span{
+    color: #be2d34;
+  }

@@ -2,12 +2,12 @@ import React, { useRef } from 'react';
 import "../styles/main.css";
 import { X } from 'lucide-react';
 import { useState } from 'react';
-import { Navigate, useNavigate } from 'react-router-dom';
-import Restaurants from '../pages/rest';
+import {  useNavigate } from 'react-router-dom';
+import { useCity } from '../contexts/cityContext';
+
 
 function Maindiv() {
-  //  const {setCity}=useCity()
-    const [city, setCity] = useState(""); 
+   const {setCity}=useCity()
     const [history, setHistory] = useState([]); 
     const [isListening, setIsListening] = useState(false);
     const navigate=useNavigate()
@@ -41,7 +41,7 @@ function Maindiv() {
         recognition.stop();
         setTimeout(() => {
           setIsListening(false);
-          Navigate(`/rest/${spokenText}`);
+          navigate(`/rest`);
         },1000);
       };
   
@@ -52,7 +52,7 @@ function Maindiv() {
     }
    
     
-  console.log(city)
+
   
   return (
     <>  
