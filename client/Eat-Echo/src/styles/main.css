@@ -1,0 +1,75 @@
+.mainDiv{
+    width: 100%;
+    height: 80vh;
+   
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: grid;
+    grid-template-columns: 40% 60%; 
+    grid-template-rows:20% 80%; 
+    margin-top: 1px;
+   
+    /* border: 2px solid black; */
+   
+}
+
+.sideDiv {
+    grid-row: span 2; 
+    background-image: url("https://images.axios.com/wATq4W23ahtn_smTbli4sm0yPnM=/0x73:1300x804/1920x1080/2024/07/18/1721312331120.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.topDiv{
+    background-color: #2a9d8f;
+    color: white;
+    padding: 15px;
+   
+    background-image: url("https://t3.ftcdn.net/jpg/08/30/36/24/360_F_830362443_3P82WDlEppAJDZp1n0o6MZMTyiq69kwp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.micDiv{
+    background-color: #e9c46a;
+    padding: 20px;
+    background-image: url("https://t3.ftcdn.net/jpg/08/30/36/24/360_F_830362443_3P82WDlEppAJDZp1n0o6MZMTyiq69kwp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1px;
+    text-align: center;
+    position: relative;
+
+}
+
+.micDiv>button>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.micDiv button{
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+   
+}
+
+.historyDiv{
+    width: 100%;
+    height: 5%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.historyDiv button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
