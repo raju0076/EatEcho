@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Footer.css"
+import "../styles/footer.css"
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-column">
           <h3>About Eat_Echo</h3>
           <ul>
-          <li><a href="#">Who We Are</a></li>
+            <li><a href="#">Who We Are</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Work With Us</a></li>
             <li><a href="#">Investor Relations</a></li>
@@ -18,7 +18,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-column">
-        <h3>NomVerse</h3>
+          <h3>NomVerse</h3>
           <ul>
             <li><a href="#">EatEcho</a></li>
             <li><a href="#">Blinkit</a></li>
@@ -28,23 +28,23 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-column">
-        <h3>FOR RESTAURANTS</h3>
+          <h3>FOR RESTAURANTS</h3>
           <ul>
             <li><a href="#">Partner With Us</a></li>
             <li><a href="#">Apps For You</a></li>
           </ul>
         </div>
         <div className="footer-column">
-        <h3>LEARN MORE</h3>
+          <h3>LEARN MORE</h3>
           <ul>
             <li><a href="#">Privacy</a></li>
             <li><a href="#">Security</a></li>
             <li><a href="#">Terms</a></li>
           </ul>
-          
+
         </div>
         <div className="footer-column">
-        <h3>SOCIAL</h3>
+          <h3>SOCIAL</h3>
           <ul>
             <li>Facebook</li>
             <li>Twitter</li>
