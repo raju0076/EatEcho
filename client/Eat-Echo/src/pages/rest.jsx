@@ -12,7 +12,7 @@ function Restaurants() {
   useEffect(() => {
     if (!city) return;
 
-    axios.get(`http://localhost:5000/top-items?city=${city}`)
+    axios.get(`${import.meta.env.VITE_API_URL}/top-items?city=${city}`)
     .then((response) => {
       console.log(response.data);
       setRestaurants(response.data);  
