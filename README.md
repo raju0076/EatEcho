@@ -9,7 +9,7 @@ Eat Echo is a voice-based assistant application that helps users find the top 5 
 
 ## Deployed App
 - **Backend**: https://eatecho-4gmz.onrender.com (Deployed on Render)
-- **Frontend**: https://eat-echo-app1.netlify.app/Home(Deployed on Netlify)
+- **Frontend**: https://eat-echo-app1.netlify.app (Deployed on Netlify)
 
 ## Directory Structure
 ```text
